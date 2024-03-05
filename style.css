@@ -11,7 +11,8 @@ body{
     background: rgb(235, 235, 235);
 }
 
-/*Organizar la barra de navegación*/
+/*=========ORGANIZAR LA BARRA DE NAVEGACION============*/
+
 nav .wrapper{
     display: flex;
     justify-content: space-between;
@@ -19,6 +20,8 @@ nav .wrapper{
     gap: 1rem; 
     padding: 0 4rem;  
     background:#fff;
+
+    height: 70px;
     
 }
 
@@ -59,7 +62,7 @@ nav .wrapper .left .input input[type='search']::placeholder{
     color: gray;
 }
 
-/*Organizar los íconos*/
+/*Organizar los íconos del lado derecho*/
 
 nav .wrapper .right .home,
 nav .wrapper .right .red,
@@ -96,6 +99,16 @@ nav .wrapper .right .mensaje: hover,
 nav .wrapper .right .notificaciones: hover, 
 nav .wrapper .right .me: hover{
     color: black;
+}
+
+nav .wrapper .right .me .down .yo{
+    display: flex;
+    gap: 0.5rem;
+}
+
+nav .wrapper .right .work .down .negocios{
+    display: flex;
+    gap: 0.5rem;
 }
 
 /*Texto a la derecha*/
@@ -228,7 +241,7 @@ nav .wrapper .right .me: hover{
 
    /* IMAGEN PERFIL */
 
-   .container .one .image img{
+   .container .one .imagen img{
     border-radius: 50%;
    }
 
@@ -248,6 +261,7 @@ nav .wrapper .right .me: hover{
      height: 8vh;
 
  }
+/* =======visualizaciones e impresiones====== */
 
  .container .view{
      position: relative;
@@ -288,6 +302,7 @@ nav .wrapper .right .me: hover{
     font-size: 1rem; 
     border-bottom: 1px solid gray; 
     color: gray;
+
       
 }
 
